@@ -25,6 +25,9 @@
   },
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x",
-    "serve": "^6.1.0"
-  }
+    "serve": "^6.1.0",
+    "set-immediate-shim": "^1.0.1"
+  },
+  "repository": "git@github.com:jslowack/react-static-netlify.git",
+  "author": "Jelle Slowack <jelle@novemberfive.co>"
 }
