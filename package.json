@@ -4,9 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "react-static start",
-    "stage": "react-static build --staging",
-    "build": "react-static build",
+    "start": "yarn react-static start",
+    "stage": "yarn react-static build --staging",
+    "build": "yarn react-static build",
     "serve": "serve dist -p 3000"
   },
   "dependencies": {
@@ -25,8 +25,7 @@
   },
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x",
-    "serve": "^6.1.0",
-    "set-immediate-shim": "^1.0.1"
+    "serve": "^6.1.0"
   },
   "repository": "git@github.com:jslowack/react-static-netlify.git",
   "author": "Jelle Slowack <jelle@novemberfive.co>"
