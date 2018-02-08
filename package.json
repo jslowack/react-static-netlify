@@ -24,9 +24,13 @@
     "react-static": "^5.1.7"
   },
   "devDependencies": {
+    "chokidar": "^2.0.1",
     "eslint-config-react-tools": "1.x.x",
     "serve": "^6.1.0"
   },
   "repository": "git@github.com:jslowack/react-static-netlify.git",
-  "author": "Jelle Slowack <jelle@novemberfive.co>"
+  "author": "Jelle Slowack <jelle@novemberfive.co>",
+  "optionalDependencies": {
+    "fsevents": "^1.1.3"
+  }
 }
